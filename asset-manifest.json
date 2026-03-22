@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Student-placement-prediction/static/css/main.a5c2085c.css",
-    "main.js": "/Student-placement-prediction/static/js/main.e73c06ad.js",
+    "main.js": "/Student-placement-prediction/static/js/main.7fd96a0e.js",
     "index.html": "/Student-placement-prediction/index.html",
     "main.a5c2085c.css.map": "/Student-placement-prediction/static/css/main.a5c2085c.css.map",
-    "main.e73c06ad.js.map": "/Student-placement-prediction/static/js/main.e73c06ad.js.map"
+    "main.7fd96a0e.js.map": "/Student-placement-prediction/static/js/main.7fd96a0e.js.map"
   },
   "entrypoints": [
     "static/css/main.a5c2085c.css",
-    "static/js/main.e73c06ad.js"
+    "static/js/main.7fd96a0e.js"
   ]
 }
