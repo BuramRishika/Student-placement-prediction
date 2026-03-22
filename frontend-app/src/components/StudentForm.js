@@ -21,7 +21,8 @@ export default function StudentForm({ onResult, onLoading }) {
     setLoading(true);
     onLoading(true);
     try {
-      const res = await fetch('http://localhost:5000/predict', {
+      const API_BASE = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+      const res = await fetch(`${API_BASE}/predict`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
