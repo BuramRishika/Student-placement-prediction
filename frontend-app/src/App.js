@@ -15,7 +15,7 @@ import './styles/main.css';
 export default function App() {
   return (
     <AuthProvider>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL || '/Student-placement-prediction'}>
         <ScrollToTop />
         <Navbar />
         <Routes>
